@@ -1,7 +1,6 @@
 .card-cont {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     align-items: center;
 }
 
@@ -9,6 +8,8 @@
     color: black;
     margin: 10px 5px;
     background-color: blanchedalmond;
+    width: 374px;
+    height: 244px;
 }
 
 .card-name {
@@ -16,7 +17,7 @@
     font-size: larger;
     font-style: oblique;
     text-align: center;
-    margin: 0;
+    margin: 12px 0;
 }
 
 .card-tech {
