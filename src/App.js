@@ -9,7 +9,6 @@ function App() {
       <WorkExperience />
       <h2>Portfolio</h2>
       <Portfolio />
-      <div>contacts</div>
       <Footer />
     </div>
   );
