@@ -1,4 +1,4 @@
-import { Bio, WorkExperience } from './Components';
+import { Bio, Portfolio, WorkExperience } from './Components';
 import './App.css';
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
     <div>
       <Bio />
       <WorkExperience />
-      <div>Portfolio</div>
+      <Portfolio />
       <div>contacts</div>
       <div>footer</div>
     </div>
