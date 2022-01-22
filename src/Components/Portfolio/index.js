@@ -52,8 +52,8 @@ function Portfolio() {
                     <h3 className="card-name">{name}</h3>
                     <h6 className="card-tech">{tech.split(',')}</h6>
                     <p className="card-desc">{description}</p>
-                    {github? <button href={github}>Github</button>: ""}
-                    {deployed? <button href={deployed}>Deployed</button>: ""} 
+                    {github? <a href={github}>Github</a>: ""}
+                    {deployed? <a href={deployed}>Deployed</a>: ""} 
                </div>
              )
         })}

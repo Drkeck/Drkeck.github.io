@@ -29,10 +29,14 @@
 
 .card-desc {
     padding: 10px;
+    margin-bottom: 10px;
 }
 
-.card-port button {
+.card-port a {
     background-color: rgba(95, 158, 160, 0.5);
     border: 0;
     margin: 10px 8px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
 }

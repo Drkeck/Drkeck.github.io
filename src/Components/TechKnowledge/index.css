@@ -13,3 +13,11 @@
 .header-1, .header-2 {
     width: 370px;
 }
+
+.tek-text {
+    margin: 2px 8px;
+}
+
+.lang-text {
+    margin: 2px;
+}
