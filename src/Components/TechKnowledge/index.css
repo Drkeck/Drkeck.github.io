@@ -14,10 +14,18 @@
     width: 370px;
 }
 
+.tek-text, .lang-text {
+    background-color: rgba(0, 0, 255, 0.76);
+    padding: 4px;
+    color: whitesmoke;
+    border-radius: 10%;
+}
+
 .tek-text {
     margin: 2px 8px;
 }
 
 .lang-text {
     margin: 2px;
+    height: fit-content;
 }
