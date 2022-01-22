@@ -1,0 +1,15 @@
+.skill-con {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.tek-con, .lang-con {
+    display: flex;
+    flex-flow: row wrap;
+    width: 370px;
+    justify-content: space-around;
+}
+
+.header-1, .header-2 {
+    width: 370px;
+}

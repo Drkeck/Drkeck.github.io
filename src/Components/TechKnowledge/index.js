@@ -6,14 +6,26 @@ const lang = ['HTML', 'CSS', 'JavaScript', 'SQL'];
 function TechSkills() {
     let i = 0
     return(
-        <div>
-            <h2>Tech Skills</h2>
+        <div className="skill-con">
+            <h2 className="header-1">Libraries/Tools</h2>
+            <h2 className="header-2">languages</h2>
             <div className="tek-con">
                 {tek.map(tek => {
                     i++
                 return(
-                    <div key={i}>
+                    <div key={i} className="tek-text">
                         <p>{tek}</p>
+                    </div>
+                    );
+                })}
+            </div>
+            
+            <div className="lang-con">
+            {lang.map(lang => {
+                    i++
+                return(
+                    <div key={i} className="lang-text">
+                        <p>{lang}</p>
                     </div>
                     );
                 })}
