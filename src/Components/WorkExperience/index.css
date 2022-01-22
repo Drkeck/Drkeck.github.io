@@ -1,0 +1,16 @@
+.container-exp {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-long {
+    box-shadow: 0em 0em 1em 1px black;
+    padding: 10px;
+    margin: 2%;
+    z-index: 1;
+}
+
+.job-name {
+    margin: 0;
+    padding: 0;
+}
