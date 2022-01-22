@@ -6,14 +6,14 @@ const prtWrk = [
         github: "https://github.com/Drkeck/Thrall-chives",
         deployed: "",
         description: "An archival app i was building for my 'client' she's my significant other and was at the time doing commissions for 3d models, so i started building her software in Electron.js to keep track of her clients orders",
-        tech: "Electron.js, HTML, JavaScript, Css, MongoDB Atlas"
+        tech: "Electron.js, HTML, JavaScript, CSS, MongoDB Atlas"
     }, 
     {
         name: "DeceptiveBrownie Epk",
         github: "https://github.com/Drkeck/DB-Epk",
         deployed: "https://deceptivebrownie.herokuapp.com/",
         description: "Electronic Press Kit for DeceptiveBrownie, a new talent in the market and a close friend of mine that i have known for around 3 years.",
-        tech: "React, Spotify's Api, Bootstrap, Axios"
+        tech: "React, Spotify's-Api, Bootstrap, Axios"
     }, 
     {
         name: "D&D Character Generator",
@@ -43,7 +43,7 @@ function Portfolio() {
     let i = 0;
 
     return(
-        <div>
+        <div className="card-cont">
             {prtWrk.map(project => {
                 const {
                     name,
@@ -55,10 +55,10 @@ function Portfolio() {
                 i++
 
              return(
-                <div key={i}>
-                    <h3>{name}</h3>
-                    <h6>{tech.split(',')}</h6>
-                    <p>{description}</p>
+                <div key={i} className="card-port">
+                    <h3 className="card-name">{name}</h3>
+                    <h6 className="card-tech">{tech.split(',')}</h6>
+                    <p className="card-desc">{description}</p>
                     {github? <button href={github}>Github</button>: ""}
                     {deployed? <button href={deployed}>Deployed</button>: ""} 
                </div>

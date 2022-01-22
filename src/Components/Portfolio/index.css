@@ -1,0 +1,24 @@
+.card-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-port {
+    color: black;
+    margin: 0 5px;
+    background-color: blanchedalmond;
+}
+
+.card-name {
+    font-weight: 500;
+    font-size: larger;
+    font-style: oblique;
+    text-align: center;
+}
+
+.card-tech {
+    font-weight: 600;
+    text-align: center;
+    word-spacing: 1rem;
+}
