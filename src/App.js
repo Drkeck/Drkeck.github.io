@@ -1,10 +1,11 @@
 import logo from './logo.svg';
+import { Bio } from './Components';
 import './App.css';
 
 function App() {
   return (
     <div>
-      <div>Bio</div>
+      <Bio />
       <div>work experience</div>
       <div>Portfolio</div>
       <div>contacts</div>
