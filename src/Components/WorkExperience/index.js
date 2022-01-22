@@ -17,7 +17,6 @@ const wrkExp = [{
 }]
 
 function WorkExperience() {
-    console.log(wrkExp[0].name)
     return(
         <div className="container-exp">
             {wrkExp.map(element => (

@@ -22,12 +22,14 @@
     font-size: larger;
     font-style: oblique;
     text-align: center;
+    margin: 0;
 }
 
 .card-tech {
     font-weight: 600;
     text-align: center;
     word-spacing: 1rem;
+    margin: 0;
 }
 
 .a1 {
@@ -48,6 +50,23 @@
 
 .a5 {
     animation-duration: 12s;
+}
+
+.card-desc {
+    padding: 10px;
+}
+
+.card-port button {
+    background-color: rgba(95, 158, 160, 0.5);
+    border: 0;
+    margin: 10px 8px;
+    visibility: hidden;
+}
+
+.card-port:hover button {
+    visibility: visible;
+    pointer-events: all;
+    z-index: 12;
 }
 
 @keyframes floating {
