@@ -1,20 +1,14 @@
 .card-cont {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
 }
 
 .card-port {
     color: black;
-    margin: 0 5px;
+    margin: 10px 5px;
     background-color: blanchedalmond;
-    animation: floating infinite alternate;
-    animation-duration: calc(6s - 320ms);
-    transition: 3s;
-}
-
-.card-port:hover {
-    animation: none;
 }
 
 .card-name {
@@ -32,26 +26,6 @@
     margin: 0;
 }
 
-.a1 {
-    animation-duration: 9s;
-}
-
-.a2 {
-    animation-duration: 5s;
-}
-
-.a3 {
-    animation-duration: 7s;
-}
-
-.a4 {
-    animation-duration: 3s;
-}
-
-.a5 {
-    animation-duration: 12s;
-}
-
 .card-desc {
     padding: 10px;
 }
@@ -60,17 +34,4 @@
     background-color: rgba(95, 158, 160, 0.5);
     border: 0;
     margin: 10px 8px;
-    visibility: hidden;
-}
-
-.card-port:hover button {
-    visibility: visible;
-    pointer-events: all;
-    z-index: 12;
-}
-
-@keyframes floating {
-    from { transform: translate(0,  0px); }
-    65%  { transform: translate(0, 15px); }
-    to   { transform: translate(0, -0px); }    
 }
