@@ -12,7 +12,9 @@ function Bio() {
                 <h3 className="title">Software Developer</h3>
 
                 <div className="about-me">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lacus massa, egestas ut porta sed, malesuada et ex. Sed volutpat molestie odio, ut ullamcorper neque luctus nec. Nunc ut porttitor ante. Etiam sollicitudin enim turpis, sit amet consequat ex ullamcorper ut. Sed consequat eros quis felis mollis ornare. Integer tincidunt mollis dui, et ornare nulla dictum eu. Etiam eu convallis felis. In sit amet lectus lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id magna tortor.</p>
+                    <p>A hardworking, determined, and forward thinking Full Stack Developer that specializes in MongoDB, Express.js, React.js, and Node.js. I enjoy learning new skills and looking for new opportunities to advance my career as a software engineer.</p>
+                    <br />
+                    <p>I have also worn many other hats allowing my to dip my hands into other fields of influence, such as: Video Editing, Live Streaming(Twitch), Writing, Design, Computer Building, and various other hobbies.</p>
                 </div>
             </div>
         </div>
