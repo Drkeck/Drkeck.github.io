@@ -3,7 +3,7 @@ import "./index.css"
 function Bio() {
 
     return(
-        <div className="container">
+        <div className="container-bio">
             <div>
                 <img src="https://via.placeholder.com/150" className="profile" alt="Profile"></img>
             </div>

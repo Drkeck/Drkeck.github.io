@@ -1,7 +1,10 @@
-.container {
+.container-bio {
     display: flex;
     flex-direction: row;
     align-items: center;
+    background-color: antiquewhite;
+    margin: 20px 0 0 0;
+    padding: 2% 3%;
 }
 
 .profile {
