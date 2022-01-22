@@ -26,12 +26,23 @@
 }
 
 .job-employment{
+    position: relative;
     margin: 0;
     padding: 0;
 }
 
+.job-employment::after {
+    content: "";
+    position: absolute;
+    width: 99%;
+    height: 2px;
+    left: 0;
+    top: 22px;
+    background-color: black;
+}
+
 .job-description{
     margin: 0;
-    padding: 8px 0;
+    padding: 10px 0;
     text-align: left;
 }
