@@ -6,14 +6,14 @@ const wrkExp = [{
     joined: "November 2020",
     left:"Present employer",
     title: "Full Stack Developer",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum faucibus felis at urna feugiat rutrum. Aliquam erat volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi luctus neque quis sem pretium mollis. Nullam commodo sapien id purus volutpat, quis euismod quam."
+    description: "I was picked up out of bootcamp by Sebastion (Founder and CEO of darbe) as they were looking for develpers to talk to and call upon to build out their vision. I've been working with them through the design, development, and hopefully soon deployment of their platform"
 }, {
     id: "2",
     name: "Legacy Medical",
     joined: "April 2021",
     left:"june 2021",
     title: "Medical Records Clerk",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum faucibus felis at urna feugiat rutrum. Aliquam erat volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi luctus neque quis sem pretium mollis. Nullam commodo sapien id purus volutpat, quis euismod quam."
+    description: "This was the first time working in the medical field allowing me to observe how primary care physicians work and run their offices. Doing work as a clerk is surprisingly relaxing honestly enjoyed the silent resolve."
 }]
 
 function WorkExperience() {
