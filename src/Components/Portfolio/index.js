@@ -55,7 +55,7 @@ function Portfolio() {
                 i++
 
              return(
-                <div key={i} className="card-port">
+                <div key={i} className={"card-port a"+i}>
                     <h3 className="card-name">{name}</h3>
                     <h6 className="card-tech">{tech.split(',')}</h6>
                     <p className="card-desc">{description}</p>

@@ -8,6 +8,13 @@
     color: black;
     margin: 0 5px;
     background-color: blanchedalmond;
+    animation: floating infinite alternate;
+    animation-duration: calc(6s - 320ms);
+    transition: 3s;
+}
+
+.card-port:hover {
+    animation: none;
 }
 
 .card-name {
@@ -21,4 +28,30 @@
     font-weight: 600;
     text-align: center;
     word-spacing: 1rem;
+}
+
+.a1 {
+    animation-duration: 9s;
+}
+
+.a2 {
+    animation-duration: 5s;
+}
+
+.a3 {
+    animation-duration: 7s;
+}
+
+.a4 {
+    animation-duration: 3s;
+}
+
+.a5 {
+    animation-duration: 12s;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
 }
