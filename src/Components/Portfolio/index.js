@@ -24,7 +24,7 @@ const prtWrk = [
     }, 
     {
         name: "Darbe",
-        github: "Private",
+        github: "",
         deployed: "https://Darbe.co",
         description: "I will include darbe here on the grounds that it is my most recent professional work and is worth looking at, i worked with a design team to make that vision come to life and have been forever fixing any styling bugs that have shown thier ugly faces",
         tech: "MongoDB Atlas, Express.js, React.js, Node.js, Axios"
@@ -59,7 +59,9 @@ function Portfolio() {
                     <h3>{name}</h3>
                     <h6>{tech.split(',')}</h6>
                     <p>{description}</p>
-                </div>
+                    {github? <button href={github}>Github</button>: ""}
+                    {deployed? <button href={deployed}>Deployed</button>: ""} 
+               </div>
              )
         })}
         </div>
