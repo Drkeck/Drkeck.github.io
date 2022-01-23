@@ -1,11 +1,12 @@
 import "./index.css"
+import {profile} from "../../assets"
 
 function Bio() {
 
     return(
         <div className="container-bio">
             <div>
-                <img src="https://via.placeholder.com/150" className="profile" alt="Profile"></img>
+                <img src={profile} className="profile" alt="Profile"></img>
             </div>
             <div>
                 <h1 className="name">Alexander keckley</h1>
