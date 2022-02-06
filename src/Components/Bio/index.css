@@ -42,3 +42,9 @@
 p {
     margin: 0;
 }
+
+@media screen and (min-width: 200px) and (max-width: 768px){
+    .container-bio {
+        margin: 10px 10px;
+    }
+}

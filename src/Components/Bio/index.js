@@ -15,7 +15,7 @@ function Bio() {
                 <div className="about-me">
                     <p>A hardworking, determined, and forward thinking Full Stack Developer that specializes in MongoDB, Express.js, React.js, and Node.js. I enjoy learning new skills and looking for new opportunities to advance my career as a software engineer.</p>
                     <br />
-                    <p>I have also worn many other hats allowing my to dip my hands into other fields of influence, such as: Video Editing, Live Streaming(Twitch), Writing, Design, Computer Building, and various other hobbies.</p>
+                    <p>I have also worn many other hats allowing me to dip hands into other fields such as: Video Editing, Live Streaming(Twitch), and computer building.</p>
                 </div>
             </div>
         </div>
