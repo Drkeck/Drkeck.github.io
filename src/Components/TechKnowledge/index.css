@@ -32,3 +32,10 @@
     margin: 2px;
     height: fit-content;
 }
+
+@media screen and (min-width: 200px) and (max-width: 768px) {
+    .skill-con {
+        flex-flow: column;
+        align-items: center;
+    }
+}

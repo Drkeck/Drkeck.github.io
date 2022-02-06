@@ -8,9 +8,8 @@ function TechSkills() {
     let i = 0
     return(
         <div className="skill-con">
-            <h2 className="header-1">Libraries/Tools</h2>
-            <h2 className="header-2">languages</h2>
             <div className="tek-con">
+                <h2 className="header-1">Libraries/Tools</h2>
                 {tek.map(tek => {
                     i++
                 return(
@@ -23,17 +22,19 @@ function TechSkills() {
                 })}
             </div>
             
-            <div className="lang-con">
-            {lang.map(lang => {
-                    i++
-                return(
-                    <Draggable>
-                        <div key={i} className="lang-text">
-                            <p>{lang}</p>
-                        </div>
-                    </Draggable>
-                    );
-                })}
+            <div className="lang-con">            
+                <h2 className="header-2">languages</h2>
+
+                {lang.map(lang => {
+                        i++
+                    return(
+                        <Draggable>
+                            <div key={i} className="lang-text">
+                                <p>{lang}</p>
+                            </div>
+                        </Draggable>
+                        );
+                    })}
             </div>
         </div>
     )
