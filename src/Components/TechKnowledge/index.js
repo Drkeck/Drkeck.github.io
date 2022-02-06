@@ -1,3 +1,4 @@
+import React from "react";
 import Draggable from "react-draggable";
 import "./index.css";
 
@@ -5,6 +6,7 @@ const tek = ['React.js', 'MongoDB', 'Express.js', 'node.js', 'Axios', 'Next.js',
 const lang = ['HTML', 'CSS', 'JavaScript', 'SQL'];
 
 function TechSkills() {
+    const nodeRef = React.useRef(null);
     let i = 0
     return(
         <div className="skill-con">
@@ -13,8 +15,8 @@ function TechSkills() {
                 {tek.map(tek => {
                     i++
                 return(
-                    <Draggable>
-                        <div key={i} className="tek-text">
+                    <Draggable key={i} noderef={nodeRef}>
+                        <div key={i} className="tek-text" noderef={nodeRef}>
                             <p>{tek}</p>
                         </div>
                     </Draggable>
@@ -28,8 +30,8 @@ function TechSkills() {
                 {lang.map(lang => {
                         i++
                     return(
-                        <Draggable>
-                            <div key={i} className="lang-text">
+                        <Draggable key={i} noderef={nodeRef}>
+                            <div key={i} className="lang-text" noderef={nodeRef}>
                                 <p>{lang}</p>
                             </div>
                         </Draggable>
