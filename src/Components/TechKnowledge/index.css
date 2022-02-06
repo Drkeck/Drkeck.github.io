@@ -21,7 +21,7 @@
     font-weight: 600;
     border-radius: 10%;
     box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.288);
-    pointer-events: none;
+    cursor: move;
 }
 
 .tek-text {

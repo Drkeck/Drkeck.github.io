@@ -1,3 +1,4 @@
+import Draggable from "react-draggable";
 import "./index.css";
 
 const tek = ['React.js', 'MongoDB', 'Express.js', 'node.js', 'Axios', 'Next.js', 'Redux', 'git', 'jQuery', 'Materialize', 'Socket.io', 'Moment.js', 'React native', 'Electron.js'];
@@ -13,9 +14,11 @@ function TechSkills() {
                 {tek.map(tek => {
                     i++
                 return(
-                    <div key={i} className="tek-text">
-                        <p>{tek}</p>
-                    </div>
+                    <Draggable>
+                        <div key={i} className="tek-text">
+                            <p>{tek}</p>
+                        </div>
+                    </Draggable>
                     );
                 })}
             </div>
@@ -24,9 +27,11 @@ function TechSkills() {
             {lang.map(lang => {
                     i++
                 return(
-                    <div key={i} className="lang-text">
-                        <p>{lang}</p>
-                    </div>
+                    <Draggable>
+                        <div key={i} className="lang-text">
+                            <p>{lang}</p>
+                        </div>
+                    </Draggable>
                     );
                 })}
             </div>
