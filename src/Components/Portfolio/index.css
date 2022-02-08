@@ -1,13 +1,14 @@
 .card-cont {
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
     align-items: center;
 }
 
 .card-port {
     color: aliceblue;
     margin: 10px 5px;
-    width: 374px;
+    width: 344px;
     height: 44px;
     box-shadow: 0em 0em 1em 1px rgba(0, 0, 0, 0.25);
     transition: 1s;
@@ -76,8 +77,13 @@
     height: 244px;
 }
 
-@media screen and (min-width: 200px) and (max-width: 768px) {
+@media screen and (min-width: 200px) and (max-width: 769px) {
     .card-cont {
         flex-flow: column;
+        align-items: center;
+    }
+
+    .card-port:hover {
+        height: calc(244px + 2vh);
     }
 }
