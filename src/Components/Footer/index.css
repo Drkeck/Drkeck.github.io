@@ -17,3 +17,13 @@
 .fade {
     opacity: 0.5;
 }
+
+@media screen and (min-width: 200px) and (max-width: 768px) {
+    .footer-cont {
+        flex-direction: column;
+        /* justify-content: baseline; */
+        align-items: center;
+        margin-top: 60px;
+        height: unset;
+    }
+}
