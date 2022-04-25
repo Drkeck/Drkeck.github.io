@@ -2,7 +2,7 @@ import React from "react";
 import Draggable from "react-draggable";
 import "./index.css";
 
-const tek = ['React.js', 'MongoDB', 'Express.js', 'node.js', 'Axios', 'Next.js', 'Redux', 'git', 'jQuery', 'Materialize', 'Socket.io', 'Moment.js', 'React native', 'Electron.js'];
+const tek = ['React.js', 'MongoDB', 'Express.js', 'node.js', 'Axios', 'Next.js', 'Redux', 'git', 'jQuery', 'Materialize', 'Socket.io', 'Moment.js', 'React native', 'Electron.js', 'WebSockets'];
 const lang = ['HTML', 'CSS', 'JavaScript', 'SQL', 'C#'];
 
 function TechSkills() {
