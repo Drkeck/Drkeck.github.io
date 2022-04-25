@@ -3,7 +3,7 @@ import Draggable from "react-draggable";
 import "./index.css";
 
 const tek = ['React.js', 'MongoDB', 'Express.js', 'node.js', 'Axios', 'Next.js', 'Redux', 'git', 'jQuery', 'Materialize', 'Socket.io', 'Moment.js', 'React native', 'Electron.js'];
-const lang = ['HTML', 'CSS', 'JavaScript', 'SQL'];
+const lang = ['HTML', 'CSS', 'JavaScript', 'SQL', 'C#'];
 
 function TechSkills() {
     const nodeRef = React.useRef(null);
