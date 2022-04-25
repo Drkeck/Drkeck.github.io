@@ -99,9 +99,9 @@ function App() {
           number: {
             density: {
               enable: false,
-              area: 1800,
+              area: 180,
             },
-            value: 300,
+            value: 150,
           },
           opacity: {
             value: 0.75,
