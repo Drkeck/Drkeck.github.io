@@ -4,6 +4,13 @@
    flex-wrap: wrap; 
 }
 
+.tek-points {
+  display: flex;
+  flex-flow: row wrap;
+  width: 370px;
+  justify-content: space-around;
+}
+
 .card-long {
     background-color: white;
     border-radius: 5%;
