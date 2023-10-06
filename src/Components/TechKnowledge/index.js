@@ -2,7 +2,7 @@ import React from "react";
 import "./index.css";
 import TeckPoints from "../Teckpoints";
 
-const tek = ['HTML', 'CSS', 'SQL', 'C#', 'git', 'jQuery', 'React native', 'Electron.js', 'WebSockets', 'thee.js', ];
+const tek = ['HTML', 'CSS', 'SQL', 'C#', 'git', 'jQuery', 'Electron.js', 'WebSockets', 'three.js', ];
 // TODO: need to retool this to utilized the automtic version i made in teckpoints
 function TechSkills() {
     return(

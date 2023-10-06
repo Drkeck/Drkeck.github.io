@@ -88,4 +88,8 @@
         flex-direction: column;
         align-items: center;
     }
+
+    .inner-exp {
+        width: 100%;
+    }
 }
