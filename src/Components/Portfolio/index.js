@@ -11,14 +11,14 @@ const prtWrk = [
     {
         name: "DeceptiveBrownie Epk",
         github: "https://github.com/Drkeck/DB-Epk",
-        deployed: "https://deceptivebrownie.herokuapp.com/",
+        deployed: "",
         description: "Electronic Press Kit for DeceptiveBrownie, a new talent in the market and a close friend of mine that i have known for around 3 years.",
         tech: "React, Spotify's-Api, Bootstrap, Axios"
     }, 
     {
         name: "D&D Character Generator",
         github: "https://github.com/bskutivan/character_builder",
-        deployed: "https://dnd-char-builder.herokuapp.com/",
+        deployed: "",
         description: "This little gem is a project that i did back when i was in bootcamp, its something im still proud of as well as know that products like this while niche are wanted by table top roleplayers",
         tech: "HandleBars.js, Express.js, sequelize, bcrypt"
     },
@@ -28,6 +28,21 @@ const prtWrk = [
         deployed: "https://drkeck.github.io/DBFZ_Team_Random",
         description: "Something i made in my free time as well as something to break up the more professional 'client facing' flow, just something personal that i saw through to its end and have some ides to expand apon it further.",
         tech: "HTML, CSS, JavaScript"
+    },
+    {
+        name: "Artifact of Revolution",
+        github: "https://github.com/Drkeck/ArtifactOfRevolution",
+        deployed: "",
+        description: "built an idea i had for a game i like to play, its a mod that changes one of the modifiers in the games core loop. its made in unity so it codded in C#",
+        tech: "C#, Unity"
+
+    },
+    {
+        name: "overworld-chart",
+        github: "https://github.com/Drkeck/overworld-chart",
+        deployed: "",
+        description: "built a 3D world similar to a old RPG overworlds to contain low poly cities and points of intrest, as the project continues to inovate the endgoal is to make a world that can be tracked and altered.",
+        tech: "three.js, JavaScript"
     }
 ]
 
