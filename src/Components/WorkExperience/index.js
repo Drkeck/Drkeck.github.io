@@ -29,13 +29,13 @@ function WorkExperience() {
     return(
         <div className="container-exp">
             {wrkExp.map((element, id) => (
-            <div>
+            <div className="inner-exp">
                 <div className="card-long" key={id}>
                     <h4 className="job-name">{element.name}</h4>
                     <h5 className="job-title">{element.title}</h5>
                     <h5 className="job-employment">{element.joined} - {element.left}</h5>
                     <p className="job-description">{element.description}</p>
-                    <section>
+                    <section className="experience-card">
                         <h6>Experience with</h6>
                     </section>
                 </div>
