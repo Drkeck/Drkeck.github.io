@@ -62,7 +62,22 @@
     background-size: cover;
     opacity: 1;
 }
+ 
+.a5 {
+    background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.66),rgba(0, 0, 0, 0.5)), url("../../assets/img/5-min.jpg");
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
 
+}
+
+.a6 {
+    background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.66),rgba(0, 0, 0, 0.5)), url("../../assets/img/6-min.png");
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+
+}
 .card-port a {
     background-color: rgb(130, 218, 221);
     font-weight: 700;
