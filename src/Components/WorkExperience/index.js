@@ -35,6 +35,9 @@ function WorkExperience() {
                     <h5 className="job-title">{element.title}</h5>
                     <h5 className="job-employment">{element.joined} - {element.left}</h5>
                     <p className="job-description">{element.description}</p>
+                    <section>
+                        <h6>Experience with</h6>
+                    </section>
                 </div>
                 <div className="tek-points">
                 {element.teckpoints?.map((point , id) => (

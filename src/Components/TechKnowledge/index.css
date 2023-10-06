@@ -1,17 +1,11 @@
-.skill-con {
+.tek-con {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
-}
-.tek-con, .lang-con {
-    display: flex;
-    flex-flow: row wrap;
-    width: 370px;
     justify-content: space-around;
 }
 
-.header-1, .header-2 {
-    width: 370px;
+.header-1 {
+    text-align: center;
 }
 
 .tek-text, .lang-text {
@@ -23,6 +17,7 @@
     box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.288);
     cursor: move;
     z-index: 2;
+    height: fit-content;
 }
 
 .tek-text {

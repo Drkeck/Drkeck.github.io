@@ -7,20 +7,18 @@
 .tek-points {
   display: flex;
   flex-flow: row wrap;
-  width: 370px;
   justify-content: space-around;
 }
 
 .card-long {
     background-color: white;
-    border-radius: 5%;
+    border-radius: 20px;
     box-shadow: 0em 0em 1em 1px rgba(0, 0, 0, 0.5);
     padding: 10px;
-    margin: 2%;
+    margin: 20px;
     z-index: 1;
     text-align: center;
-    width: 333.281px;
-    height: 230px;
+    height: fit-content;
 }
 
 .job-name {
@@ -56,6 +54,10 @@
     padding: 10px 0;
     text-align: left;
     font-weight: 200;
+}
+
+.experience-card {
+    
 }
 
 @media screen and (min-width: 200px) and (max-width: 768px) {
