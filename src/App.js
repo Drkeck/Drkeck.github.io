@@ -19,7 +19,7 @@ function App() {
       <Bio />
       <h2>Work Experience</h2>
       <WorkExperience />
-      <h2>Portfolio</h2>
+      <h2>Personal Project Portfolio</h2>
       <Portfolio />
       <TechSkills />
       <Footer />

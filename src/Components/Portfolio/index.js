@@ -33,7 +33,7 @@ const prtWrk = [
         name: "Artifact of Revolution",
         github: "https://github.com/Drkeck/ArtifactOfRevolution",
         deployed: "",
-        description: "built an idea i had for a game i like to play, its a mod that changes one of the modifiers in the games core loop. its made in unity so it codded in C#",
+        description: "built an idea i had for the game 'Risk of Rain 2', Artifact of Revolution is a mod that changes one of the modifiers in the games core loop. the game is built in unity so the mod was built with C#",
         tech: "C#, Unity"
 
     },
@@ -41,7 +41,7 @@ const prtWrk = [
         name: "overworld-chart",
         github: "https://github.com/Drkeck/overworld-chart",
         deployed: "",
-        description: "built a 3D world similar to a old RPG overworlds to contain low poly cities and points of intrest, as the project continues to inovate the endgoal is to make a world that can be tracked and altered.",
+        description: "Overwold Chart is a project that mashes retro video game RPGs and table top RPGs to make a visual world for players and game masters to interact with however they see fit. still currenlty W.I.P",
         tech: "three.js, JavaScript"
     }
 ]
