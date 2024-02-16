@@ -1,3 +1,7 @@
+:root {
+--backgrounds: #fff2f2;
+}
+
 .App {
   text-align: center;
   margin: 0 auto;

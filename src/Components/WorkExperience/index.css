@@ -19,7 +19,7 @@
 }
 
 .card-long {
-    background-color: white;
+    background-color: var(--backgrounds);
     border-radius: 20px;
     box-shadow: 0em 0em 1em 1px rgba(0, 0, 0, 0.5);
     padding: 10px;

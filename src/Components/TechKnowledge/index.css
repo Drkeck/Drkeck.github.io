@@ -9,7 +9,7 @@
 }
 
 .tek-text, .lang-text {
-    background-color: white;
+    background-color: var(--backgrounds);
     padding: 6px;
     color: black;
     font-weight: 600;

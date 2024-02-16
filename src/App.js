@@ -18,7 +18,7 @@ function App() {
       options={{
         background: {
           color: {
-            value: "#BEBEBE",
+            value: "#9aad91",
             opacity: 0,
             size: 0,
           },
