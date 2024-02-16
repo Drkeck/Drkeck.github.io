@@ -26,11 +26,13 @@ function WorkExperience() {
               ({months(new Date(element.joined), element.left ==="Current" ? new Date(Date.now()) : new Date(element.left))})
             </h5>
                     <p className="job-description">{element.description}</p>
-                {element.teckpoints ? (
+                {element.description2 && <p className="job-description">{element.description2}</p>}
+                {element.description3 && <p className="job-description">{element.description3}</p>}
+                {element.teckpoints && (
                     <section className="experience-card">
                         <h6>Experience with</h6>
                     </section>
-                ) : <></>}
+                )}
                 </div>
                 <div className="tek-points">
                 {element.teckpoints?.map((point , id) => (

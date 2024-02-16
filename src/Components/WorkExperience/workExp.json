@@ -6,8 +6,10 @@
     "joined": "May 2022",
     "left": "Current",
     "title": "Full Stack Engineer",
-    "description":"I was hired apart of a new team tasked with support projects across bounded contexts, and overall system health. While Contracting for Northwestern Mutual I was tasked with building internal tools for departments that allowed teams to quickly and safely monitor and modify data within our system. Building these internal tools required that I Design UI/UX experiences in Figma, with multiple rounds of feedback and adjustments.",
-    "teckpoints": ["TypeScript", "Node", "React", "AWS", "Elk", "Jira", "Confluence", "Gitlab", "Gitlab-ci", "GraphQl", "DynamoDB", "Docker", "Jest", "React testing library", "Figma", "Msal", "Azure AD / Entra ID", "AWS Lambda"]    
+    "description":  "I was hired apart of a new team that supported projects across bounded contexts. while also spinning up new services and micro apps",
+    "description2": "I was tasked with developing internal tools for departments that allowed teams to quickly and safely monitor and modify data within our system. Building these internal tools required that I Design UI/UX experiences in Figma, with multiple rounds of feedback and adjustments.",
+    "description3": "My team was also responsable for project health for the department, this took the form of updates to Node.js, upgrading our CI/CD, changes to Kubernetes and Docker images, AWS lambda runtimes, and maintaining secrect managers",
+    "teckpoints": ["TypeScript", "Node", "React", "AWS", "Elk", "Jira", "Confluence", "Gitlab", "Gitlab-ci", "GraphQl", "DynamoDB", "Docker", "Kubernetes", "Jest", "React testing library", "Figma", "Msal", "Azure AD / Entra ID", "AWS Lambda"]    
 },
     {
     "name": "Darbe",
