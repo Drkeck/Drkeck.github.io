@@ -2,8 +2,7 @@ import React from "react";
 import "./index.css";
 import TeckPoints from "../Teckpoints";
 
-const tek = ['HTML', 'CSS', 'SQL', 'C#', 'git', 'jQuery', 'Electron.js', 'WebSockets', 'three.js', ];
-// TODO: need to retool this to utilized the automtic version i made in teckpoints
+const tek = ['HTML', 'CSS', 'SQL', 'C#', 'git', 'jQuery', 'Electron.js', 'WebSockets', 'three.js', 'Tauri', 'vite'];
 function TechSkills() {
     return(
         <div className="skill-con">

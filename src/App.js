@@ -4,16 +4,6 @@ import './App.css';
 
 function App() {
 
-  const particlesInit = (main) => {
-    // console.log(main);
-
-    // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
-  };
-
-  const particlesLoaded = (container) => {
-    // console.log(container);
-  };
-
   return (
     <div className="App">
       <Bio />
@@ -25,8 +15,6 @@ function App() {
       <Footer />
       <Particles
       id="tsparticles"
-      init={particlesInit}
-      loaded={particlesLoaded}
       options={{
         background: {
           color: {

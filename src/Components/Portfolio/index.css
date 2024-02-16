@@ -35,35 +35,42 @@
     margin-bottom: 10px;
 }
 
-.a1 {
+.TTcompanion {
+  background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.66),rgba(0, 0, 0, 0.5)), url("../../assets/img/ttcomp.png");
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+}
+
+.Thrallchives {
     background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.66),rgba(0, 0, 0, 0.5)), url("../../assets/img/1-min.png");
     background-position: center;
     background-size: cover;
     opacity: 1;
 }
 
-.a2 {
+.DeceptiveBrownie {
     background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.66),rgba(0, 0, 0, 0.5)), url("../../assets/img/4-min.png");
     background-position: center;
     background-size: cover;
     opacity: 1;
 }
 
-.a3 {
+.Character {
     background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.66),rgba(0, 0, 0, 0.5)), url("../../assets/img/3-min.png");
     background-position: center;
     background-size: cover;
     opacity: 1;
 }
 
-.a4 {
+.DBFZ {
     background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.66),rgba(0, 0, 0, 0.5)), url("../../assets/img/2-min.png");
     background-position: center;
     background-size: cover;
     opacity: 1;
 }
  
-.a5 {
+.Artifact {
     background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.66),rgba(0, 0, 0, 0.5)), url("../../assets/img/5-min.jpg");
     background-position: center;
     background-size: cover;
@@ -71,7 +78,7 @@
 
 }
 
-.a6 {
+.Overworld-chart {
     background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.66),rgba(0, 0, 0, 0.5)), url("../../assets/img/6-min.png");
     background-position: center;
     background-size: cover;
