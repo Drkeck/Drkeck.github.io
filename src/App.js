@@ -1,9 +1,8 @@
 import { Bio, Footer, Portfolio, TechSkills, WorkExperience } from './Components';
-import Particles from 'react-tsparticles';
 import './App.css';
 
-function App() {
 
+function App() {
   return (
     <div className="App">
       <Bio />
@@ -13,98 +12,6 @@ function App() {
       <Portfolio />
       <TechSkills />
       <Footer />
-      <Particles
-      id="tsparticles"
-      options={{
-        background: {
-          color: {
-            value: "#9aad91",
-            opacity: 0,
-            size: 0,
-          },
-        },
-        fullScreen: {
-          zIndex: -1,
-        },
-        fpsLimit: 120,
-        interactivity: {
-          events: {
-            onClick: {
-              enable: false,
-              mode: "push",
-            },
-            onHover: {
-              enable: false,
-              mode: "repulse",
-            },
-            resize: true,
-          },
-          modes: {
-            bubble: {
-              distance: 400,
-              duration: 2,
-              opacity: 0.8,
-              size: 40,
-            },
-            push: {
-              quantity: 4,
-            },
-            repulse: {
-              distance: 100,
-              duration: 1,
-            },
-            connect: {
-              distance: 1200,
-              links: {
-                opacity: 0.5,
-              },
-              radius: 60,
-            }
-          },
-        },
-        particles: {
-          color: {
-            value: "#FFFFFF",
-          },
-          links: {
-            color: "#FFFFFF",
-            distance: 80,
-            enable: true,
-            opacity: 0.25,
-            width: 2,
-          },
-          collisions: {
-            enable: true,
-          },
-          move: {
-            direction: "none",
-            enable: true,
-            outMode: "out",
-            random: true,
-            speed: 3,
-            straight: false,
-          },
-          number: {
-            density: {
-              enable: false,
-              area: 180,
-            },
-            value: 150,
-          },
-          opacity: {
-            value: 0.75,
-          },
-          shape: {
-            type: "circle",
-          },
-          size: {
-            random: true,
-            value: 3,
-          },
-        },
-        detectRetina: true,
-      }}
-    />
     </div>
   );
 }
