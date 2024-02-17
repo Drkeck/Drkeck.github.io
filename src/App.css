@@ -3,7 +3,7 @@
 }
 
 html {
-  background-color: #9aad91;
+    background: radial-gradient(#ad9191, #9aad91);
 }
 
 .App {
