@@ -6,17 +6,28 @@
     margin-bottom: 10px;
 }
 
+.info {
+  margin-top: 10px;
+}
+
 .footer-cont {
     height: 100px;
 }
 
 .footer-cont a, .info a {
+    text-shadow: white 0 0 10px;
     text-decoration: none;
     color: black;
     font-weight: 800;
     font-size: 20px;
+    transition: 250ms;
 }
 
+
+.footer-cont a:hover, .info a:hover {
+  color: white;
+  text-shadow: black 0 0 10px;
+}
 .fade {
     opacity: 0.5;
 }
@@ -31,7 +42,6 @@
         height: unset;
         flex-wrap: wrap;
     }
-    
 
     .footer-cont {
         margin: 30px;
