@@ -1,13 +1,16 @@
-.footer-cont {
+.info, .footer-cont{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-end;
-    height: 100px;
     margin-bottom: 10px;
 }
 
-.footer-cont a {
+.footer-cont {
+    height: 100px;
+}
+
+.footer-cont a, .info a {
     text-decoration: none;
     color: black;
     font-weight: 800;
@@ -19,17 +22,22 @@
 }
 
 @media screen and (min-width: 200px) and (max-width: 768px) {
-    .footer-cont {
+
+    .footer-cont, .info {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin: 30px;
         height: unset;
         flex-wrap: wrap;
     }
+    
 
-    .footer-cont a {
+    .footer-cont {
+        margin: 30px;
+    }
+
+    .footer-cont a, .info a {
         margin: 15px 30px;
         width: 25%;
     }

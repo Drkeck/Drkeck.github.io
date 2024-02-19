@@ -3,7 +3,15 @@
 }
 
 html {
-    background: radial-gradient(#ad9191, #9aad91);
+    background: radial-gradient(#fff2f2, #9aad91);
+}
+
+h2 {
+  margin: 15px auto;
+  width: fit-content;
+  background: #fff2f2;
+  border-radius: 15px;
+  padding: 5px 10%;
 }
 
 .App {
@@ -19,4 +27,5 @@ html {
     width: 368px;
     overflow-x: hidden;
   }
+
 }

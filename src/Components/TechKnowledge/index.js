@@ -6,7 +6,6 @@ const tek = ['HTML', 'CSS', 'SQL', 'C#', 'git', 'jQuery', 'Electron.js', 'WebSoc
 function TechSkills() {
     return(
         <div className="skill-con">
-        <h2 className="header-1">Other Technologies I've spent time with</h2>
             <div className="tek-con">
                 {tek.map((tek , id) => {
                 return(

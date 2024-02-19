@@ -23,12 +23,14 @@ function App() {
     <>
     <div className="App">
       <Bio />
+      <Footer footer={false}/>
       <h2>Work Experience</h2>
       <WorkExperience />
-      <h2>Personal Project Portfolio</h2>
+      <h2>Personal Project's</h2>
       <Portfolio />
+      <h2>Other Tech I've used</h2>
       <TechSkills />
-      <Footer />
+      <Footer footer={true}/>
     </div> 
       {init && <Particles 
           id='tsparticles'
