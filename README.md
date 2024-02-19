@@ -1,4 +1,4 @@
-# (Drkeck.github.io)[https://drkeck.github.io/]
+# [Drkeck.github.io](https://drkeck.github.io/)
 Welcome to my portfolio site!
 
 It may not be the best portfolio site around but this one is mine and im proud of what I was able to do with it at the time.
