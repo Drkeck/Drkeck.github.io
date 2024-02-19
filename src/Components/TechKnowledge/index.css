@@ -1,37 +1,11 @@
-.skill-con {
+.tek-con {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
-}
-.tek-con, .lang-con {
-    display: flex;
-    flex-flow: row wrap;
-    width: 370px;
     justify-content: space-around;
 }
 
-.header-1, .header-2 {
-    width: 370px;
-}
-
-.tek-text, .lang-text {
-    background-color: white;
-    padding: 6px;
-    color: black;
-    font-weight: 600;
-    border-radius: 10%;
-    box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.288);
-    cursor: move;
-    z-index: 2;
-}
-
-.tek-text {
-    margin: 2px 8px;
-}
-
-.lang-text {
-    margin: 2px;
-    height: fit-content;
+.header-1 {
+    text-align: center;
 }
 
 @media screen and (min-width: 200px) and (max-width: 768px) {

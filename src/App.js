@@ -1,123 +1,44 @@
+import React from 'react';
 import { Bio, Footer, Portfolio, TechSkills, WorkExperience } from './Components';
-import Particles from 'react-tsparticles';
+import Particles, {initParticlesEngine} from '@tsparticles/react';
+// import { tsParticles } from '@tsparticles/engine';
+import { loadSlim } from '@tsparticles/slim'
+import particalOps from './particles.js'
 import './App.css';
 
+
 function App() {
+  const [init, setInit] = React.useState(false);
 
-  const particlesInit = (main) => {
-    // console.log(main);
-
-    // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
-  };
-
-  const particlesLoaded = (container) => {
-    // console.log(container);
-  };
-
+  React.useEffect(() => {
+    initParticlesEngine(async (engine) => {
+      await loadSlim(engine)
+    }).then(() => {
+        setInit(true)
+      })
+  })
+ //  
+  
   return (
+    <>
     <div className="App">
       <Bio />
-      <TechSkills />
+      <Footer footer={false}/>
       <h2>Work Experience</h2>
       <WorkExperience />
-      <h2>Portfolio</h2>
+      <h2>Personal Project's</h2>
       <Portfolio />
-      <Footer />
-      <Particles
-      id="tsparticles"
-      init={particlesInit}
-      loaded={particlesLoaded}
-      options={{
-        background: {
-          color: {
-            value: "#BEBEBE",
-            opacity: 0,
-            size: 0,
-          },
-        },
-        fullScreen: {
-          zIndex: -1,
-        },
-        fpsLimit: 120,
-        interactivity: {
-          events: {
-            onClick: {
-              enable: false,
-              mode: "push",
-            },
-            onHover: {
-              enable: false,
-              mode: "repulse",
-            },
-            resize: true,
-          },
-          modes: {
-            bubble: {
-              distance: 400,
-              duration: 2,
-              opacity: 0.8,
-              size: 40,
-            },
-            push: {
-              quantity: 4,
-            },
-            repulse: {
-              distance: 100,
-              duration: 1,
-            },
-            connect: {
-              distance: 1200,
-              links: {
-                opacity: 0.5,
-              },
-              radius: 60,
-            }
-          },
-        },
-        particles: {
-          color: {
-            value: "#FFFFFF",
-          },
-          links: {
-            color: "#FFFFFF",
-            distance: 80,
-            enable: true,
-            opacity: 0.25,
-            width: 2,
-          },
-          collisions: {
-            enable: true,
-          },
-          move: {
-            direction: "none",
-            enable: true,
-            outMode: "out",
-            random: true,
-            speed: 3,
-            straight: false,
-          },
-          number: {
-            density: {
-              enable: false,
-              area: 180,
-            },
-            value: 150,
-          },
-          opacity: {
-            value: 0.75,
-          },
-          shape: {
-            type: "circle",
-          },
-          size: {
-            random: true,
-            value: 3,
-          },
-        },
-        detectRetina: true,
-      }}
-    />
-    </div>
+      <h2>Other Tech I've used</h2>
+      <TechSkills />
+      <Footer footer={true}/>
+    </div> 
+      {init && <Particles 
+          id='tsparticles'
+          style={{zIndex:'-1'}}
+          options={particalOps}
+          /> 
+      }
+    </>
   );
 }
 

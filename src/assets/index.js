@@ -1,3 +1,3 @@
-import profile from "./img/5-min.jpg"
+import profile from "./img/profile.jpg"
 
 export {profile}

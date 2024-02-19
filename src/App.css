@@ -1,7 +1,25 @@
+:root {
+--backgrounds: #fff2f2;
+}
+
+html {
+    background: radial-gradient(#fff2f2, #9aad91);
+}
+
+h2 {
+  margin: 15px auto;
+  width: fit-content;
+  background: #fff2f2;
+  border-radius: 15px;
+  padding: 5px 10%;
+}
+
 .App {
   text-align: center;
   margin: 0 auto;
   width: 768px;
+  position: relative;
+  z-index: 2;
 }
 
 @media screen and (min-width: 200px) and (max-width: 768px) {
@@ -9,4 +27,5 @@
     width: 368px;
     overflow-x: hidden;
   }
+
 }
