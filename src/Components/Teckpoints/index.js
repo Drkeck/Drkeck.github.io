@@ -1,12 +1,14 @@
 import React from "react";
 import Draggable from "react-draggable";
-import '../TechKnowledge/index.css'
+import './index.css'
 
 export default function TeckPoints({point}) {
 
+  const nodeRef = React.useRef(null);
+
     return(
-          <Draggable>
-            <div className="tek-text">
+          <Draggable nodeRef={nodeRef}>
+            <div className="tek-text" ref={nodeRef}>
                 <p>{point}</p>
             </div>
           </Draggable>

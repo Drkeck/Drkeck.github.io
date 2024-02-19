@@ -1,9 +1,26 @@
+import React from 'react';
 import { Bio, Footer, Portfolio, TechSkills, WorkExperience } from './Components';
+import Particles, {initParticlesEngine} from '@tsparticles/react';
+// import { tsParticles } from '@tsparticles/engine';
+import { loadSlim } from '@tsparticles/slim'
+import particalOps from './particles.js'
 import './App.css';
 
 
 function App() {
+  const [init, setInit] = React.useState(false);
+
+  React.useEffect(() => {
+    initParticlesEngine(async (engine) => {
+      await loadSlim(engine)
+    }).then(() => {
+        setInit(true)
+      })
+  })
+ //  
+  
   return (
+    <>
     <div className="App">
       <Bio />
       <h2>Work Experience</h2>
@@ -12,7 +29,14 @@ function App() {
       <Portfolio />
       <TechSkills />
       <Footer />
-    </div>
+    </div> 
+      {init && <Particles 
+          id='tsparticles'
+          style={{zIndex:'-1'}}
+          options={particalOps}
+          /> 
+      }
+    </>
   );
 }
 

@@ -12,12 +12,6 @@
     width: 100%;
 }
 
-.tek-points {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-}
-
 .card-long {
     background-color: var(--backgrounds);
     border-radius: 20px;

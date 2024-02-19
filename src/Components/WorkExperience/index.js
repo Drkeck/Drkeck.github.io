@@ -34,7 +34,7 @@ function WorkExperience() {
                     </section>
                 )}
                 </div>
-                <div className="tek-points">
+                <div className="tek-con">
                 {element.teckpoints?.map((point , id) => (
                     <TeckPoints point={point} key={id + point}/>
                 ))}
