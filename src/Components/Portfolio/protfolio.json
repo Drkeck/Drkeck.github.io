@@ -10,7 +10,7 @@
     {
         "name": "DeceptiveBrownie Epk",
        "github": "https://github.com/Drkeck/DB-Epk",
-       "deployed": "",
+       "deployed": "https://deceptivebrownie.vercel.app/",
        "description": "Electronic Press Kit for DeceptiveBrownie, a new talent in the market and a close friend of mine that i have known for around 3 years.",
         "tech": "React, Spotify's-Api, Bootstrap, Axios"
     }, 
