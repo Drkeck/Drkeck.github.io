@@ -4,8 +4,8 @@
     "joined": "September 2024",
     "left": "Current",
     "title": "Full Stack Engineer",
-    "description": "Higherd for a high visibility project surrounding the businesses’ core functions that was centered around the sales teams contractual signing systems, specifically with digital document management. worked closely with other teams and departments to build infistructure in existing platforms and microservices to retrieve, parse, and autofill information into our database and generate new documents for electronic signiture",
-    "description2": "expanded the project from a front end with a included backend to multiple front-ends and microservices to handle the varience in request across the company and combining important information and submitting it to our own database to ease excessive calls out while enabling tracking for our Applications and use cases",
+    "description": "I was higherd for a high visibility project surrounding the businesses’ core functions that was centered around the sales teams contractual signing systems, specifically with digital document management. worked closely with other teams and departments to build infistructure in existing platforms and microservices to retrieve, parse, and autofill information into our database and generate new documents for electronic signiture",
+    "description2": "The project expanded from a front end with a included backend to multiple front-ends and microservices to handle the varience in requests as well as data agragation, which we would then store in a MySql database for ease of access for our frontends on return visits/updates",
     "teckpoints": ["TypeScript", "Node", "React", "AWS", "Elk", "Jira", "Confluence", "Gitlab", "Gitlab-ci", "Docker", "Jest", "React testing library", "Figma", "Mysql" ]
   },
   {
@@ -14,7 +14,7 @@
     "left": "April 2024",
     "title": "Full Stack Engineer",
     "description":  "I was hired apart of a new team that supported projects across bounded contexts. while also spinning up new services and micro apps",
-    "description2": "I was tasked with developing internal tools for departments that allowed teams to quickly and safely monitor and modify data within our system. Building these internal tools required that I Design UI/UX experiences in Figma, with multiple rounds of feedback and adjustments.",
+    "description2": "My team was tasked with developing internal tools for departments that allowed teams to quickly and safely monitor and modify data within our system without exposing CRITICAL credentials. Building these internal tools required that I Design UI/UX experiences in Figma, with multiple rounds of feedback and adjustments.",
     "description3": "My team was also responsable for project health for the department, this took the form of updates to Node.js, upgrading our CI/CD, changes to Kubernetes and Docker images, AWS lambda runtimes, and maintaining secrect managers",
     "teckpoints": ["TypeScript", "Node", "React", "AWS", "Elk", "Jira", "Confluence", "Gitlab", "Gitlab-ci", "GraphQl", "DynamoDB", "Docker", "Kubernetes", "Jest", "React testing library", "Figma", "Msal", "Azure AD / Entra ID", "AWS Lambda"]    
 },
@@ -24,7 +24,7 @@
     "left":"May 2022",
     "title": "Full Stack Developer",
     "description": "I was picked up out of bootcamp by Sebastion (Founder and CEO of darbe) as they were looking for develpers to talk to and call upon to build out their vision. I've been working with them through the design, development, and hopefully soon deployment of their platform",
-      "description2": "built some of the front end platform and helped get the backend up and running after switching from a java based backend to a node based backend solution",
+      "description2": "built some of the front end platform and helped get the backend up and running after switching from  Java to NodeJs",
     "teckpoints": ["JavaScript", "Jira", "AWS", "Node", "MongoDB", "Redux", "WebSockets", "React", "Express.js", "Axios"]
 }
   ]
