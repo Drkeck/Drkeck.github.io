@@ -2,7 +2,7 @@
   { 
     "name": "Northweastern Mutual (Contracted through Brooksource)",
     "joined": "September 2024",
-    "left": "Current",
+    "left": "July 2025",
     "title": "Full Stack Engineer",
     "description": "I was higherd for a high visibility project surrounding the businesses’ core functions that was centered around the sales teams contractual signing systems, specifically with digital document management. worked closely with other teams and departments to build infistructure in existing platforms and microservices to retrieve, parse, and autofill information into our database and generate new documents for electronic signiture",
     "description2": "The project expanded from a front end with a included backend to multiple front-ends and microservices to handle the varience in requests as well as data agragation, which we would then store in a MySql database for ease of access for our frontends on return visits/updates",
