@@ -7,7 +7,7 @@ function Footer({footer}) {
             <a href="https://github.com/drkeck">Github</a>
             {footer && <p className="fade">Made In React, with love.</p>}
             <a href="https://www.linkedin.com/in/alexkeckley/">LinkedIn</a>
-            <a href="https://docs.google.com/document/d/1NRn6R1lbw27lBMFy45Gl_A--UkJw7daKU0XOPzRPOhM/edit?usp=sharing">Resume</a>
+            <a href="https://docs.google.com/document/d/1S_xcEX7eK-5jjAfI9jwXzuorqz2LhH4T/edit?usp=sharing&ouid=111069918300775259105&rtpof=true&sd=true">Resume</a>
         </footer>
     )
 }
